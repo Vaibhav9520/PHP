@@ -56,13 +56,13 @@
 // echo "<br>";
 // myTest();
     
-$x = 5;
-function myTest(){
-    $x = 7;
-    echo "Value of x: ".$x;
-}
-myTest();
-echo "<br>";
-echo "Value of x: ".$x;
+// $x = 5;
+// function myTest(){
+//     $x = 7;
+//     echo "Value of x: ".$x;
+// }
+// myTest();
+// echo "<br>";
+// echo "Value of x: ".$x;
 
 ?>
