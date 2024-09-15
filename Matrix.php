@@ -14,6 +14,7 @@
         return $result;
     }
     // Prompt user for input 
+    //pront for input
     echo "Enter Number of Rows for First Matrix: ";
     $row1 = trim(fgets(STDIN));
 
