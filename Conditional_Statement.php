@@ -1,6 +1,5 @@
 <?php
 $a = 18;
-$b = 55;
 if($a > 18){
     echo "Eligible for vote";
 }
