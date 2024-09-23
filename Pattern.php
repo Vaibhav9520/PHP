@@ -18,7 +18,7 @@
         }
         // Print stars
         for ($j = 1; $j <= $i; $j++) {
-            echo "1";
+            echo "*";
         }
         echo "<br>"; 
     }
