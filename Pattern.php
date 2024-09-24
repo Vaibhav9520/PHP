@@ -105,5 +105,38 @@
     echo"<br>";
     echo"<br>";
 
+    function fibb($n){
+    echo "Fibbonacci Number: ";
+
+    $a = 0;
+    $b = 1;
+
+    echo $a." ";
+    for($i=0;$i<$n;$i++){
+        echo $b." ";
+
+        $next = $a + $b;
+
+        $a = $b;
+        $b = $next;
+    }
+
+    }
+
+    fibb(10);
+    echo"<br>";
+    echo"<br>";
+
+    function fact($n){
+        echo "Factorial of ".$n." Printing: ";
+
+        $fact = 1;
+        for($i=1;$i<=$n;$i++){
+            $fact *= $i;
+        }
+        echo $fact;
+    }
+    fact(5);
+
 
 ?>
