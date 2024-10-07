@@ -16,6 +16,7 @@
 // }
 
 $courses = array('INT220'=>'PHP', 'INT221'=>'Laravel', 'INT222'=>'Node.js');
+echo $courses['INT220'] . "<br>";
 foreach($courses as $course => $value) {
     echo "Key = ".$course.","."Value = ".$value;
     echo "<br>";

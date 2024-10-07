@@ -15,4 +15,5 @@ echo($x % $y);
 echo"<br>";
 echo($x ** $y);
 echo"<br>";
+echo($x / $y);
 ?>
