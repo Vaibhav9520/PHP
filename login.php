@@ -1,10 +1,9 @@
 <?php
 
-// $valid_username = 'Vaibhav';
-// $valid_password = '123';
-session_start(); // Start the session
-$_SESSION['userName'] = "Abc";
-$_SESSION['arr'] = array("1"=>"xyz","2"=>"mine");
+$valid_username = 'Vaibhav';
+$valid_password = '123';
+
+
 
 
 $username = $_POST['username'];
