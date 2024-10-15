@@ -3,8 +3,6 @@
 $valid_username = 'Vaibhav';
 $valid_password = '123';
 
-
-
 $username = $_POST['username'];
 $password = $_POST['password'];
 
