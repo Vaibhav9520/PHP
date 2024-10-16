@@ -6,6 +6,7 @@
 
     $arrrev = array_reverse($arr);
 
+
     echo "After reversing the output array: <br>";
     print_r($arrrev);
 
