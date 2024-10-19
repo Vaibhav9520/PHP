@@ -6,8 +6,6 @@
 // }
 
 
-
-
 //by for loop
 
 
