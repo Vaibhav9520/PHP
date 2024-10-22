@@ -4,26 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PHP Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+        }
+        label {
+            font-weight: bold;
+        }
+        input[type="text"], input[type="email"] {
+            width: 100%;
+            padding: 8px;
+            margin: 5px 0 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
 </head>
 <body>
     <h3>Audit Training Registration Form</h3>
     <form action="Practice.php" method="POST">
-        <label for="name">Name</label><br>
-        <input type="text" id="name" name="name" required placeholder="First Name">
-        <input type="text" id="name" name="name" required placeholder="Last Name"><br><br>
+        <label for="fname">First Name</label><br>
+        <input type="text" id="fname" name="fname" required placeholder="First Name"><br>
+
+        <label for="lname">Last Name</label><br>
+        <input type="text" id="lname" name="lname" required placeholder="Last Name"><br>
 
         <label for="company">Company Name</label><br>
-        <input type="text" id="company"  name="company" required><br><br>
+        <input type="text" id="company" name="company" required placeholder="Your Company Name"><br>
 
-        <label for="email">Email address</label><br>
-        <input type="text" id="email" name="email" required><br><br>
+        <label for="email">Email Address</label><br>
+        <input type="email" id="email" name="email" required placeholder="you@example.com"><br>
 
-        <label for="address">Address</label><br>
-        <input type="text" name="address" id="address" required placeholder="Street Address"><br>
-        <input type="text" name="address" id="address" required placeholder="Street Address Line 2"><br>
+        <label for="street">Address</label><br>
+        <input type="text" name="street" id="street" required placeholder="Street Address"><br>
 
+        <label for="address2">Address Line 2 (optional)</label><br>
+        <input type="text" name="address2" id="address2" placeholder="Apartment, suite, etc."><br>
 
+        <input type="submit" value="Register">
     </form>
-    
 </body>
 </html>
