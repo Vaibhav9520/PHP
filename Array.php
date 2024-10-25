@@ -6,6 +6,7 @@
 // }
 //by for loop
 
+
 // $courses = array('INT220' => 'php', 'INT221' => 'Laravel', 'INT222' => 'Node.js');
 // $keys = array_keys($courses);
 
