@@ -4,8 +4,6 @@
 // foreach($courses as $course) {
 //     echo $course . "<br>";
 // }
-
-
 //by for loop
 
 
